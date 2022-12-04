@@ -1,0 +1,148 @@
+body {
+    background-color: pink;
+}
+
+.container {
+    padding: 2em;
+}
+.top-navigation {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.top-navigation-right {
+    display: flex;
+    justify-content: flex-end;
+    gap: 2rem;
+    width: 250px;
+    height: 100%;
+
+}
+.top-navigation-left {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+
+.top-navigation-links {
+    display: flex;
+    gap: 2em;
+}
+
+
+
+
+.top-navigation-links a {
+    text-decoration: none;
+    color: black;
+    display: flex;
+    gap: 1em;
+}
+
+.id {
+    width: 300px;
+    height: auto;
+}
+.id {
+    width: 100px;
+    height: auto;
+}
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+img,
+picture {
+    max-width: 100%;
+    display: block;
+}
+
+
+.stacked {
+    display: grid;
+}
+
+.stacked > * {
+    grid-column: 1/2;
+    grid-row: 1/2;
+}
+
+.product-grid {
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+
+.card {
+    aspect-ratio: 1/1.75;
+    border: 3px solid black;
+}
+
+.card__img {
+    width: 100%;
+    aspect-ratio: 1/1;
+    object-fit: cover;
+}
+
+.card__content {
+    background: white;
+    align-self: flex-end;
+    margin: .5rem .5rem 2rem;
+    padding: .5rem;
+    box-shadow: 0.25rem 1rem rgb(0 0 0/.1)
+}
+
+.card__title {
+    font-size: 1.25rem;
+    line-height: 1.1;
+    color: palevioletred;
+}
+
+.card__description {
+    font-size: 1rem;
+}
+
+.card__title a {
+    text-decoration: none;
+    color: palevioletred;
+    font-family: fantasy;
+}
+
+.copyright_footer {
+    display: flex;
+    align-items: center;
+    position: fixed bottom;
+    color: white;
+    width: 100%;
+    bottom: 0;
+    /* background-color: black; */
+    line-height: 1;
+    text-align: center;
+    left: 0;
+    margin-top: auto;
+}
+
+.copyright_footer button {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    border: 2px solid palevioletred;
+    background-color: white;
+    width: 75px;
+    padding: .15em;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+.section_one  {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
